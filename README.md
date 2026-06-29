@@ -1,6 +1,15 @@
-# Trabalho 2 - 2023/1
+# Trabalho 2 - 2026/1
 
-Trabalho 2 da disciplina de Fundamentos de Sistemas Embarcados (2023/1)
+Trabalho 2 da disciplina de Fundamentos de Sistemas Embarcados (2026/1)
+
+ESSE REPOSITÓRIO FOI GERADO UTILIZANDO UM DOS REPOSITÓRIOS DA DISCIPLINA COMO TEMPLATE E ESTÁ SUJEITO A ALTERAÇÕES!
+
+#### Integrantes:
+
+- Fabio G. S. Barbosa
+- Mateus Cavati
+- Ricardo L. W. V. Branco
+- Ryan A. B. Salles
 
 ## 1. Objetivos
 
