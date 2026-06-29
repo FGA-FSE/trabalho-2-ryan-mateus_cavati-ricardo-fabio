@@ -6,10 +6,10 @@ ESSE REPOSITÓRIO FOI GERADO UTILIZANDO UM DOS REPOSITÓRIOS DA DISCIPLINA COMO 
 
 #### Integrantes:
 
-- Fabio G. S. Barbosa
-- Mateus Cavati
-- Ricardo L. W. V. Branco
-- Ryan A. B. Salles
+- Fabio G. S. Barbosa - 222006712
+- Mateus Cavalcante de Sousa - 222006991
+- Ricardo L. W. V. Branco - 221008409
+- Ryan A. B. Salles - 22100436
 
 ## 1. Objetivos
 
