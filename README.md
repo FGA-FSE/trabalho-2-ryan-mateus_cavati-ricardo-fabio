@@ -155,3 +155,28 @@ Como o principal ponto de incerteza da disponibilidade do sensor FSR, a proposta
 
 - **Gestão de energia:** diferente do controle original (alimentado a bateria com técnicas de economia de energia), o protótipo em protoboard normalmente será alimentado via USB, então essa característica do produto original não será plenamente reproduzida — pode ser citada como limitação consciente do escopo.
 - **Fidelidade tátil:** apenas a Opção B (membrana + FSR) reproduz de fato a sensação física de pressionar um botão do DualShock; as demais priorizam a funcionalidade elétrica/lógica sobre a experiência tátil.
+
+### Comparativo com produtos similares
+
+O DualShock 4 pertence à categoria de controles (gamepads) para consoles e computadores. Ao longo da evolução dos videogames, diversos modelos da própria Sony e de fabricantes concorrentes apresentaram soluções semelhantes ou evoluções das funcionalidades presentes no DualShock 4. A tabela abaixo compara o produto estudado com controles de diferentes gerações.
+
+| Produto | Ano | Plataforma | Conectividade | Principais Recursos | Alimentação | Diferenças em relação ao DualShock 4 |
+|---------|:---:|------------|----------------|---------------------|-------------|--------------------------------------|
+| **DualShock 3** | 2007 | PlayStation 3 | Bluetooth e USB | Analógicos, acelerômetro, giroscópio, vibração, botões de face sensíveis à pressão | Bateria interna | Possui botões sensíveis à pressão, mas não possui touchpad, barra de luz nem alto-falante. |
+| **DualShock 4 (Produto estudado)** | 2013 | PlayStation 4 | Bluetooth e USB | Touchpad capacitivo, giroscópio, acelerômetro, barra de luz RGB, alto-falante, gatilhos analógicos, vibração | Bateria interna | Produto de referência deste trabalho. |
+| **DualSense** | 2020 | PlayStation 5 | Bluetooth e USB-C | Feedback háptico, gatilhos adaptáveis, touchpad, microfone, giroscópio, acelerômetro | Bateria interna | Evolução direta do DS4, com feedback tátil e gatilhos inteligentes. |
+| **Xbox Wireless Controller (Series X/S)** | 2020 | Xbox Series X/S e PC | Bluetooth, USB-C e Wireless Xbox | Vibração, gatilhos analógicos, botão Share | Pilhas AA ou bateria recarregável | Não possui touchpad nem sensores de movimento. Excelente compatibilidade com PCs. |
+| **Nintendo Switch Pro Controller** | 2017 | Nintendo Switch | Bluetooth e USB-C | Giroscópio, acelerômetro, HD Rumble, NFC (Amiibo) | Bateria interna | Não possui touchpad nem alto-falante, mas possui NFC e vibração HD. |
+| **8BitDo Ultimate Bluetooth Controller** | 2022 | PC, Nintendo Switch | Bluetooth, USB e 2.4 GHz | Analógicos Hall Effect, giroscópio, vibração, botões programáveis | Bateria interna com dock | Utiliza sensores Hall Effect, reduzindo o problema de drift e aumentando a durabilidade. |
+
+### Análise Comparativa
+
+O **DualShock 4** representou uma evolução significativa em relação ao **DualShock 3**, trazendo novos recursos como o **touchpad capacitivo**, **barra de luz RGB**, **alto-falante integrado** e melhorias na ergonomia. Em contrapartida, removeu os **botões de face sensíveis à pressão**, recurso existente no DualShock 3 e que é justamente o foco da proposta deste trabalho.
+
+Seu sucessor, o **DualSense**, introduziu tecnologias ainda mais avançadas, como **feedback háptico** e **gatilhos adaptáveis**, proporcionando maior imersão ao jogador. Apesar disso, o DualShock 4 continua sendo amplamente utilizado devido à sua compatibilidade com PlayStation 4 e computadores.
+
+Entre os concorrentes diretos, o **Xbox Wireless Controller** destaca-se pela simplicidade, ergonomia e ampla compatibilidade com Windows, porém não oferece recursos como touchpad ou sensores de movimento. Já o **Nintendo Switch Pro Controller** incorpora giroscópio, acelerômetro e vibração HD, mas também não possui touchpad.
+
+Controles mais recentes de fabricantes terceiras, como o **8BitDo Ultimate Bluetooth**, demonstram a evolução da categoria ao utilizar **sensores Hall Effect**, que praticamente eliminam o problema de *drift* dos analógicos e aumentam sua vida útil.
+
+A proposta deste projeto consiste em combinar características de diferentes gerações da linha PlayStation, reintroduzindo ao **DualShock 4** uma funcionalidade presente no **DualShock 3** (botões de face sensíveis à pressão), mantendo os recursos modernos do DS4. Dessa forma, o protótipo busca unir funcionalidades clássicas e atuais em uma solução embarcada baseada em ESP32.
