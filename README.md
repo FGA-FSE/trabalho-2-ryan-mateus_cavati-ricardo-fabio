@@ -180,3 +180,16 @@ Entre os concorrentes diretos, o **Xbox Wireless Controller** destaca-se pela si
 Controles mais recentes de fabricantes terceiras, como o **8BitDo Ultimate Bluetooth**, demonstram a evolução da categoria ao utilizar **sensores Hall Effect**, que praticamente eliminam o problema de *drift* dos analógicos e aumentam sua vida útil.
 
 A proposta deste projeto consiste em combinar características de diferentes gerações da linha PlayStation, reintroduzindo ao **DualShock 4** uma funcionalidade presente no **DualShock 3** (botões de face sensíveis à pressão), mantendo os recursos modernos do DS4. Dessa forma, o protótipo busca unir funcionalidades clássicas e atuais em uma solução embarcada baseada em ESP32.
+
+## 4. Aplicações 
+
+Essa seção apresenta algumas aplicações de controles da família DualShock ou similares. Os artigos apresentados estão disponíveis na pasta [referencias](./referencias/) desse repositório. Cada aplicação apresentada conterá o nome original, autores e um breve resumo.
+
+### Controle para Veículo não Tripulado
+
+- Nome original: Design and Development of an Unmanned Ground
+Vehicle with Serial Manipulator and its Control
+Mechanism
+- Autor(es): Muhammad Hamza Ali; Muhammad Salman Kabir;
+
+O artigo apresenta uma proposta de implemantação de um veículo não tripulado construído em volta do micro controlador arduino, utilizando um controle DualShock 2 para entrada do usuário. Segundo Ali e kabir, a utilização do controle permite intuição facilitada por usuários não experientes, diminuindo a dificuldade de aprendizado de operação do sistema.
