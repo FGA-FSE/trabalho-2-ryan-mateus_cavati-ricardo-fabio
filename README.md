@@ -183,9 +183,13 @@ A proposta deste projeto consiste em combinar características de diferentes ger
 
 ## 4. Aplicações 
 
-Essa seção apresenta algumas aplicações de controles da família DualShock ou similares. Os artigos apresentados estão disponíveis na pasta [referencias](./referencias/) desse repositório. Cada aplicação apresentada conterá o nome original, autores e um breve resumo.
+Essa seção apresenta breves resumos de artigos encontrados que tratam ou utilizam controles da família DualShock ou sensores de interesse. Os artigos foram obtidos por meio da plataforma [i3e xplore](https://ieeexplore.ieee.org/Xplore/home.jsp).
 
-### Controle para Veículo não Tripulado
+### 4.1. Do Dualshock e/ou controles estilo gamepad similares
+
+Essa seção apresenta algumas aplicações de controles da família DualShock ou similares. Os artigos apresentados estão disponíveis na pasta [referencias/dualshock](./referencias/) desse repositório. 
+
+#### [Controle para Veículo não Tripulado](./referencias/dualshock/Design_and_Development_of_an_Unmanned_Ground_Vehicle_with_Serial_Manipulator_and_its_Control_Mechanism.pdf)
 
 - Nome original: Design and Development of an Unmanned Ground
 Vehicle with Serial Manipulator and its Control
@@ -193,3 +197,67 @@ Mechanism
 - Autor(es): Muhammad Hamza Ali; Muhammad Salman Kabir;
 
 O artigo apresenta uma proposta de implemantação de um veículo não tripulado construído em volta do micro controlador arduino, utilizando um controle DualShock 2 para entrada do usuário. Segundo Ali e kabir, a utilização do controle permite intuição facilitada por usuários não experientes, diminuindo a dificuldade de aprendizado de operação do sistema.
+
+<!-- 
+
+Removido por utilizar controle diretamente sem necessariamente apresentar uma aplicação nova.
+
+### [Robô de guitar hero](./referencias/dualshock/Grybot_A_Didactic_Guitar_Hero_Robot_Player_on_FPGA.pdf)
+
+- Nome original: Grybot: A Didactic Guitar Hero Robot Player on FPGA
+- Autor(es): Luiz Adriano A. O. Vaz; Marcus Vinicius Lamar.
+
+relata o desenvolvimento de um robô que automatiza um jogo de Guitar Hero III, capaz de detectar notas na tela e alcança ao menos 95% de acurácia nas músicas do jogo. O controle é utilizado para realizar a interface entre o robô e o console PS2.
+-->
+
+#### [Controle de manipulador com 6 graus de liberdade](./referencias/Real-time_joystick_control_and_experiments_of_redundant_manipulators_using_cosine-based_velocity_mapping.pdf)
+
+- Nome original: Real-Time Joystick Control and Experiments of Redundant
+Manipulators Using Cosine-Based Velocity Mapping
+- Autor(es): Yunong Zhang et. al.
+
+O artigo apresenta algoritmos para controle de um manipulador em tempo real transferindo entrada de um controle genérico exemplificadas por tarefas como desenhar linhas retas e desenhar letras, com o objetivo de efetivamente mapear movimentos no analógico do controle no espaço de velocidade permitida pelos motores.
+
+<!-- Excluído por utilizar controle de manche completamente diferente de um gamepad estilo dualshock
+
+#### [Avaliação da estabilidade de direção de um carro por meio de manches](./referencias/Stability_analysis_of_car_driving_with_a_joystick_interface.pdf)
+-->
+
+#### [Ensino de atividades para robôs em ambientes imersivos](./referencias/The_Benefits_of_Immersive_Demonstrations_for_Teaching_Robots.pdf)
+
+- Nome original: The Benefits of Immersive Demonstrations for
+Teaching Robots
+- Autor(es): Astrid Jackson; Brandon D. Northcutt; Gita Sukthankar.
+
+O artigo apresenta uma análise de atividades realizadas em realidade virtual utilizando um controle DualShock 3 e controles vr para manipulação de objetos virtuais a fim de treinar um modelo convolucional de forma facilitada por meio de demonstração da atividade ao invés de descrição formal. O artigo concluiuu que o uso de controles vr que permitem maior liberdade de movimentos humanos são um benefício na aplicação.
+
+
+### 4.2 Do Sensor FSR (Force Sensitive/Sensing Resistor)
+
+Essa seção apresenta aplicações de uso do sensor de interesse FSR. Os artigos discutidos e coletados estão disponíveis na pasta [referencias/fsr](./referencias/fsr/)
+
+#### [Uso de sensores FSR para melhora de próteses caninas](./referencias/fsr/On_the_use_of_Force_Sensitive_Resistor_Sensors_Towards_the_Improvement_of_Comfort_in_Canine_Limb_Prostheses.pdf)
+
+- Nome original: On the use of Force Sensitive Resistor Sensors
+Towards the Improvement of Comfort in Canine
+Limb Prostheses
+- Autor(es): Alexander Valencia et. al.
+
+O artigo apresenta uma bve discussão de como próteses são utilizadas para restaurar funções de membros perdidos em cães. Foi verificado que seria possível medir como as forças de uso da prótese afetam o tecido macio de um coto de amputação, permitindo melhor desenho a fim de evitar, por exemplo, lesões causadas por pressão. 
+
+#### [Sensor de forças de cisalhamento](./referencias/fsr/Preliminary_Results_for_Novel_Shear_Force_Sensor_using_Force_Sensitive_Resistors.pdf)
+
+- Nome original: Preliminary Results for Novel Shear Force Sensor
+using Force Sensitive Resistors
+- Autor(es): Steven Cramp; Cam Maccoll; R. Bruce Wallace.
+
+O artigo apresenta resultados preliminares de pesquisa na construção de um sensor de forças de cisalhamento por meio de uma malha de sensores FSR entre camadas de silicone.
+
+
+
+
+
+
+
+
+
